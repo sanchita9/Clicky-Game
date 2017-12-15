@@ -1,0 +1,46 @@
+.card {
+  background: #fff;
+  border-radius: 2px;
+  height: 200px;
+  width: 200px;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  text-align: center;
+  margin: 5px;
+}
+
+.card > .img-container {
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  background:#6CADDC;
+}
+.card > .img-container > img {
+  width: 100%;
+}
+.active {
+  cursor: pointer;
+}
+.gameOver {
+  cursor: default;
+}
+.card > .content {
+  font-size: 15px;
+  height: 20px;  
+}
+
+.name{
+  color: rgb(0, 0, 255);
+  font-family: 'Nothing You Could Do', cursive;
+}
+.card-footer{
+  border: none;
+}
+.viewable{
+  position: absolute;
+  text-align: right;
+  width: 100%;
+  color: green;
+}
+.non-viewable{
+  display: none
+}
